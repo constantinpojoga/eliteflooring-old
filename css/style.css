@@ -3,6 +3,24 @@ h1 {
   color: red;
 }
 
+.navbar-default {
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.logo {
+  height: 100px;
+  width: 180px;
+  margin-top: -17px;
+}
+
+.nav {
+  margin-top: 30px;
+}
 
 /*------------------------------------*    MATERIAL PHOTO GALLERY
 \*------------------------------------*/
