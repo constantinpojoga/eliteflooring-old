@@ -3,3 +3,4 @@
   document.addEventListener('DOMContentLoaded', function() {
     var gallery = new MaterialPhotoGallery(elem);
   });
+
