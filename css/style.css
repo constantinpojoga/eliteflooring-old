@@ -1,5 +1,5 @@
 .headline {
-  margin-top: -25px;
+  margin-top: -20px;
   width: 100%;
   height: 400px;
   background: url('http://www.wideplankflooring.com/images/made/assets/collections/dark-wood-flooring-essential-collection-2164px-X-1234px_1082_617_80_c1.jpg');
@@ -32,21 +32,18 @@ h2, h3 {
   z-index: 1;
 }
 
-.navbar {
-  height: 80px;
-}
-
 .logo {
-  height: 70px;
+  height: 80px;
   width: 200px;
-  margin-top: -5px;
+  margin-top: -10px;
   margin-right: 20px;
 }
 
 .nav {
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 1.6em;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .active {
@@ -72,9 +69,13 @@ footer p {
 }
 
 .services-list li {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
+/*.services-img {
+  padding: 0 40px;
+  width: 100%;
+}*/
 
 @media (max-width: 767px) {
   .headline>h1{
@@ -83,19 +84,23 @@ footer p {
   }
 
   .navbar {
-    height: 50px;
-  }
-
-  .nav {
-    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
   }
 
   .logo {
     height: 43px;
     width: 130px;
-    margin-top: -12px;
+    margin-top: -10px;
   }
 
+  .services-list li {
+    font-size: 20px;
+  }
+
+  .services-list{
+    margin-top: 10px;
+  }
 }
 
 /*------------------------------------*    MATERIAL PHOTO GALLERY
