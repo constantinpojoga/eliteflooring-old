@@ -72,10 +72,23 @@ footer p {
   font-size: 1.8em;
 }
 
-/*.services-img {
-  padding: 0 40px;
-  width: 100%;
-}*/
+.contact-row {
+  height: calc(100vh - 220px);
+}
+
+@media (max-width: 991px) {
+  .nav {
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    /*margin-top: -10px;*/
+    margin-right: 0;
+  }
+}
 
 @media (max-width: 767px) {
   .headline>h1{
