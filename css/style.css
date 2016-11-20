@@ -116,6 +116,13 @@ footer p {
   }
 }
 
+@media (max-width: 460px) {
+  .headline>h1{
+    padding-top: 210px;
+    font-size: 55px;
+  }
+}
+
 /*------------------------------------*    MATERIAL PHOTO GALLERY
 \*------------------------------------*/
 .m-p-g {
