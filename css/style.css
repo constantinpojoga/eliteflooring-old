@@ -1,7 +1,7 @@
 .headline {
   margin-top: -20px;
   width: 100%;
-  height: 400px;
+  height: 550px;
   background: url("../img/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,8 +69,15 @@ footer p {
 }
 
 .services-list li {
-  font-size: 1.8em;
+  font-size: 1.6em;
+  list-style: none;
+  margin-left: -35px;
 }
+
+.img-responsive {
+  max-height: 280px;
+}
+
 
 .contact-row {
   height: calc(100vh - 220px);
