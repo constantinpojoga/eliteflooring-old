@@ -69,18 +69,22 @@ footer p {
 }
 
 .services-list li {
-  font-size: 1.6em;
+  font-size: 1.5em;
   list-style: none;
   margin-left: -35px;
 }
 
-.img-responsive {
-  max-height: 280px;
+.services-img {
+  max-height: 285px;
 }
 
 
 .contact-row {
   height: calc(100vh - 220px);
+}
+
+.contact-div h4 {
+  line-height: 1.5em;
 }
 
 @media (max-width: 991px) {
